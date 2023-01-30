@@ -7,6 +7,5 @@ def index(request):
 
 
 def about(request):
-    return HttpResponse('<a href="http://127.0.0.1:8000/rango/">Rango says here is the about page.')
+    return render(request, 'rango/about.html')
 
-# Create your views here.
